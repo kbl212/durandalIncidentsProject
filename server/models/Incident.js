@@ -3,9 +3,10 @@ var Schema = mongoose.Schema;
 
 var incidentSchema = new Schema({
     refNumber: Number,
-    Summary: String,
+    summary: String,
     currentStatus: String,
-    loggedTime: Date,
+    loggedTime: String,
+    endUser: String,
     minsToBreach: Number
 })
 

@@ -11,15 +11,14 @@ var userSchema = new Schema({
         type: String,
         required: true
     },
-    Password: {
+    password: {
         type: String,
         required: true
     },
-    Incidents: {
+    incidents: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Incident',
         default: [],
-        required: true
     }
 });
 
