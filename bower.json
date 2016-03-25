@@ -1,0 +1,21 @@
+{
+  "name": "durandal-incidents-project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "kbl212 <kyle.lauritzen@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kbl212/durandalIncidentsProject",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Durandal": "durandal#^2.1.0"
+  }
+}
