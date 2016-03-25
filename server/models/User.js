@@ -15,11 +15,10 @@ var userSchema = new Schema({
         type: String,
         required: true
     },
-    incidents: {
-        type: mongoose.Schema.Types.ObjectId,
+    userIncidents: [{
+        type: Schema.Types.ObjectId,
         ref: 'Incident',
-        default: [],
-    }
+    }]
 });
 
 module.exports = mongoose.model('User', userSchema);
